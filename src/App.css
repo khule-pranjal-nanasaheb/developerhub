@@ -1,0 +1,146 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+}
+
+.auth-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 420px;
+}
+
+.auth-card h2 {
+  font-weight: bold;
+}
+
+.auth-card .form-label {
+  font-weight: 500;
+}
+/* App.css - shared styling for Dashboard / Project components */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+}
+
+/* Project form card */
+.project-form-card {
+  background: #fff;
+  border-radius: 10px;
+}
+
+/* status badge helpers (Bootstrap classes used; additional spacing) */
+.badge {
+  font-size: 0.85rem;
+  padding: 0.45em 0.6em;
+}
+
+/* overdue date highlight style */
+.text-danger {
+  color: #dc3545 !important;
+}
+
+/* Project list small responsive */
+@media (max-width: 768px) {
+  .project-list table {
+    font-size: 0.9rem;
+  }
+}
+
+/*Task*/
+/* General App Layout */
+.app-container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9fafb;
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  background: #2563eb;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar .logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navbar .nav-links {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.logout-btn {
+  background: white;
+  color: #2563eb;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.logout-btn:hover {
+  background: #f3f4f6;
+}
+
+/* Main content wrapper */
+.main-content {
+  padding: 20px;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: white;
+}
+
+table th,
+table td {
+  border: 1px solid #e5e7eb;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background: #f3f4f6;
+}
+
+/* Buttons */
+button,
+input,
+select,
+textarea {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
